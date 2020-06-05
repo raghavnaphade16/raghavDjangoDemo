@@ -80,7 +80,8 @@ DATABASES = {
         'NAME': 'MyDb',
         'USER':'postgres',
         'PASSWORD':  'India@8793',
-        'HOST':'localhost'
+        'HOST':'localhost',
+        'PORT': '5432',
     }
 }
 from decouple import config
